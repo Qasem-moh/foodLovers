@@ -5,8 +5,8 @@ body {
 nav {
   background-color: rgb(235, 206, 47);
 }
-nav img {
-  width: 60px;
+nav  span img {
+  width: 90px;
   position: relative;
   margin-top: 10px;
 }
