@@ -29,6 +29,7 @@ function getDataFromLS() {
     FoodArray = [];
     FoodArray = result;
   }
+  setDataInLS()
 }
 
 /**
