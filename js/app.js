@@ -75,6 +75,7 @@ function renderTable() {
 }
 
 function renderDataInTable() {
+  let count = 0;
   let tbody = document.getElementsByTagName("tbody")[0];
   tbody.textContent = "";
   for (let i = 0; i < FoodArray.length; i++) {
@@ -86,7 +87,6 @@ function renderDataInTable() {
 
     let imgTD = document.createElement("img");
     imgTD.setAttribute("src", FoodArray[i].type);
-
     tdinTbody.appendChild(imgTD);
 
     /*** */
@@ -107,6 +107,7 @@ function renderDataInTable() {
     pElement3.textContent = RandomNumber();
   }
 }
+
 
 // let e3 = new Food("qasem", "pizza");
 getDataFromLS();
