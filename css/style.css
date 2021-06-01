@@ -55,7 +55,9 @@ button{
 #selectFood{
         margin-left: 92px;
 }
-
+#resultFood table{
+    background-color: gold;
+}
 #resultFood table thead{
     border: 1px solid;
 
